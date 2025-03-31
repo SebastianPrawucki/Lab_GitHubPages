@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tommorow land Promo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="header">
+        <h1>Zapraszamy na Tommorowland</h1>
+    </div>
+    <div class="content">
+        <div class="highlight">
+            🌟 TOMORROWLAND – NAJWIĘKSZY FESTIWAL MUZYCZNY NA ŚWIECIE! 🎶🔥
+        </div>
+        <div class="event-details">
+            <p><strong>🔹 Gdzie?</strong> Boom, Belgia</p>
+            <p><strong>🔹 Kiedy?</strong> Lipiec 2024</p>
+            <p><strong>🔹 Dlaczego warto?</strong> Niepowtarzalna magia, najlepsza muzyka elektroniczna i niezapomniana atmosfera!</p>
+        </div>
+        <div class="description">
+            <p>Tomorrowland to coś więcej niż festiwal – to prawdziwa podróż do świata marzeń! ✨🌍 Co roku setki tysięcy ludzi z całego świata przyjeżdżają, by przeżyć wyjątkowe chwile przy dźwiękach największych gwiazd EDM, house i techno.</p>
+        </div>
+        <div class="highlights">
+            <p>🎧 <strong>Line-up 2024</strong> – legendy i topowi DJ-e!</p>
+            <p>🎭 <strong>Magiczne scenografie</strong> – bajkowe dekoracje i niesamowite efekty wizualne!</p>
+            <p>💃 <strong>Niekończąca się impreza</strong> – muzyka, sztuka i wyjątkowi ludzie!</p>
+        </div>
+        <div class="cta">
+            <p>Nie przegap szansy na przeżycie czegoś wyjątkowego! 🌈💥 Zarezerwuj bilet i stań się częścią historii Tomorrowland!</p>
+        </div>
+    </div>
+    <div class="video-container">
+        <h2>Zobacz zapowiedź</h2>
+        <iframe 
+        src="https://www.youtube.com/embed/yyhItPsZim8?si=Bzr3dlWQib0k2_sn">
+</iframe>
+
+    </div>
+    
+    <h2>Galeria zdjęć</h2>
+    <div class="gallery" id="gallery">
+        <img src="https://shiningbeats.pl/wp-content/uploads/2024/02/tml_mainstage-1920x1024.jpg" alt="Zdjęcie 1">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa1zaFKRutI8uNBaT84NDjs5CR0bqFr8LbJA&s" alt="Zdjęcie 2">
+        <img src="https://shiningbeats.pl/wp-content/uploads/2024/12/tml_2024_main-1920x1024.jpg" alt="Zdjęcie 3">
+        <img src="https://partycamp.pl/wp-content/uploads/2023/01/1722001812712_df467153-f52f-445b-8c0a-6c73fd99762c.jpg_0_18427186284616060628.jpg" alt="Zdjęcie 4">
+    </div>
+    <script>
+        function rotateImages() {
+            const gallery = document.getElementById("gallery");
+            const images = gallery.getElementsByTagName("img");
+            if (images.length > 1) {
+                gallery.appendChild(images[0]);
+            }
+        }
+        setInterval(rotateImages, 3000);
+    </script>
+</body>
+</html>
